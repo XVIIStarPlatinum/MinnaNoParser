@@ -63,9 +63,9 @@ missing or you pass `--refresh`.
 
 ## Files
 
-- `generate_worksheets.py` — the generator
+- `../generate_worksheets.py` — the generator
 - `data/minna-no-ds.yaml` — cached copy of the MinnaNoDS dataset
-- `fonts/NotoSerifCJKjp-Regular.ttf` — Noto Serif CJK, subset down to just
+- `../fonts/NotoSerifCJKjp-Regular.ttf` — Noto Serif CJK, subset down to just
   the glyphs the dataset actually uses (~370 KB instead of ~24 MB), so
   Japanese text renders correctly regardless of what's installed on your
   machine. (SIL Open Font License; see the Noto CJK repo for full terms.)
@@ -73,7 +73,7 @@ missing or you pass `--refresh`.
 
 ## Tweaking the look
 
-Most layout knobs are constants near the top of `generate_worksheets.py`
+Most layout knobs are constants near the top of `../generate_worksheets.py`
 (`JP_COL_W`, `MIN_ROW_H`, `BASE_JP_SIZE`, margins, etc.) — worth a look
 before touching the drawing code itself.
 
