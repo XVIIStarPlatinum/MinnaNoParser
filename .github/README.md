@@ -4,6 +4,10 @@
 |-----------------------|-----------------------|-----------------------|-----------------------------------|
 | <h3>[🇷🇺 RU](README.ru.md)</h3> | <h3>[🇲🇳 MN](README.mn.md)</h3> | <h3>[🇯🇵 JP](README.ja.md)</h3> | <h3 dir="rtl" lang="he">[HE 🇮🇱](README.he.md)</h3> | 
 
+| <b>Русский</b> | <b>Монгол</b> | <b>日本語</b> |　<b dir="rtl" lang="he">עברית</b> |
+|-----------------------|-----------------------|-----------------------|-----------------------------------|
+| <h3>[🇷🇺 RU](README.ru.md)</h3> | <h3>[🇲🇳 MN](README.mn.md)</h3> | <h3>[🇯🇵 JP](README.ja.md)</h3> | <h3 dir="rtl" lang="he">[HE 🇮🇱](README.he.md)</h3> | 
+
 Generates one fill-in-the-blank "new words" worksheet PDF per lesson (50
 total: Shokyu I lessons 1-25, Shokyu II lessons 26-50), styled after the
 Mongolian-language worksheet used in the class, but with English
