@@ -1,7 +1,16 @@
 <div dir="rtl" lang="he">
 
-# みんなの日本語 --- דפי עבודה באנגלית לאוצר מילים
-<sup>נ.ב.: לפי בקשת מרינה</sup>
+# みんなの日本語 — דפי עבודה באנגלית לאוצר מילים
+
+<p align="center">
+  <sup>נ.ב.: לפי בקשת מרינה</sup><br>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTE4bjZqZ2Q5OWlwY3VmY21tNm53Y3BlaWJqeWZtMGtpcmhkbmgxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Pk3ljzIDb4R0j3zpMU/giphy.gif" alt="*Tel Aviv impressed*"/>
+</p>
+
+| <b>English</b> | <b>Русский</b> | <b>Монгол</b> |　日本語 |
+|-----------------------|-----------------------|-----------------------|-----------------------------------|
+| <h3>[🇬🇧 EN](README.md)</h3> | <h3>[🇷🇺 RU](README.ru.md)</h3> | <h3>[🇲🇳 MN](README.mn.md)</h3> | <h3>[🇯🇵 JP](README.ja.md)</h3> |
+
 
 יוצר קובץ PDF אחד לכל שיעור, עם דף עבודה של "מילים חדשות" (השלמת החסר)
 (בסך הכול 50: שוקיו I שיעורים 1-25, שוקיו II שיעורים 26-50). העיצוב מבוסס על
@@ -69,13 +78,13 @@ python generate_worksheets.py --refresh         # הורדה מחדש של מא�
 
 ## קבצים
 
-- `../generate_worksheets.py` --- הסקריפט היוצר
-- `data/minna-no-ds.yaml` --- עותק שמור של מאגר הנתונים MinnaNoDS
-- `../fonts/NotoSerifCJKjp-Regular.ttf` --- Noto Serif CJK, מצומצם לתווים
+- `../generate_worksheets.py` — הסקריפט היוצר
+- `data/minna-no-ds.yaml` — עותק שמור של מאגר הנתונים MinnaNoDS
+- `../fonts/NotoSerifCJKjp-Regular.ttf` — Noto Serif CJK, מצומצם לתווים
   שבהם המאגר משתמש בפועל (כ-370 KB במקום כ-24 MB), כדי שהטקסט היפני יוצג
   נכון ללא קשר לגופנים המותקנים אצלך במחשב. (רישיון SIL Open Font License;
   לתנאים המלאים ראו את מאגר Noto CJK.)
-- `output/` --- כל 50 קובצי ה-PDF של דפי העבודה שנוצרו
+- `output/` — כל 50 קובצי ה-PDF של דפי העבודה שנוצרו
 
 ## התאמת המראה
 

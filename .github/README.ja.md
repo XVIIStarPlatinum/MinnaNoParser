@@ -1,4 +1,8 @@
-# みんなの日本語 --- 英語語彙ワークシート
+# みんなの日本語 — 英語語彙ワークシート
+
+| <b>English</b> | <b>Русский</b> | <b>Монгол</b> |　<b dir="rtl" lang="he">עברית</b> |
+|-----------------------|-----------------------|-----------------------|-----------------------------------|
+| <h3>[🇬🇧 EN](README.md)</h3> | <h3>[🇷🇺 RU](README.ru.md)</h3> | <h3>[🇲🇳 MN](README.mn.md)</h3> | <h3 dir="rtl" lang="he">[HE 🇮🇱](README.he.md)</h3> |
 
 各課ごとに、穴埋め形式の「新しいことば」ワークシートをPDFで1枚ずつ生成します
 (全50課：初級I 第1〜25課、初級II 第26〜50課)。クラスで使われているモンゴル語版
@@ -57,13 +61,13 @@ python generate_worksheets.py --refresh         # データセットを再ダウ
 
 ## ファイル
 
-- `../generate_worksheets.py` --- 生成スクリプト
-- `data/minna-no-ds.yaml` --- MinnaNoDSデータセットのキャッシュ版
-- `../fonts/NotoSerifCJKjp-Regular.ttf` --- Noto Serif CJK。データセットで実際に使われている
+- `../generate_worksheets.py` — 生成スクリプト
+- `data/minna-no-ds.yaml` — MinnaNoDSデータセットのキャッシュ版
+- `../fonts/NotoSerifCJKjp-Regular.ttf` — Noto Serif CJK。データセットで実際に使われている
   文字だけに絞ってサブセット化しており(約24MBではなく約370KB)、お使いのパソコンに
   どんなフォントが入っているかにかかわらず日本語が正しく表示されます。
   (SIL Open Font License。詳細な条件はNoto CJKのリポジトリをご覧ください。)
-- `output/` --- 生成済みの50課分のワークシートPDF
+- `output/` — 生成済みの50課分のワークシートPDF
 
 ## 見た目の調整
 
